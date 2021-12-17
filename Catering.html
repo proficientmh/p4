@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift Card | My Site</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="css/fancybox.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+    <div class="all-sec-part ">
+
+        <div class="head">
+
+            <div class="header">
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <a class="navbar-brand logo" href="index.html"><img src="image/PASTAAMORE_logo_edited.webp" alt="PASTAAMORE_logo_edited"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+
+                            <a class="nav-item nav-link menub" href="menu.html">Menu</a>
+                            <a class="nav-item nav-link menub" href="Catering.html">Catering</a>
+                            <a class="nav-item nav-link menub" href="gift-card.html">Gift Card</a>
+                            <a class="nav-item nav-link menub" href="location.html">Locations</a>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!-- header -->
+
+        </div>
+        <!-- head -->
+
+        <!-- ======================================= -->
+        <!-- top text + gallary slider-->
+        <!-- ======================================= -->
+        <div class="container-fluid">
+            <div class="container">
+                <div class="main-text">
+                    <p>PERFECT FOR ANY OCCASION</p>
+                </div>
+
+            </div>
+            <!-- container -->
+        </div>
+        <!-- container-fluid -->
+
+        <!-- ========================= -->
+        <div class="container-fluid ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md 12">
+
+                        <!-- slider-title -->
+                        <div class="slider carousel slide " id="slide" data-ride="carousel">
+                            <div class="slider-item ">
+
+                                <ul class="carousel-indicators our-bulet">
+                                    <li data-target="#slide" data-slide-to="0" class="active"></li>
+                                    <li data-target="#slide" data-slide-to="1"></li>
+                                    <li data-target="#slide" data-slide-to="2"></li>
+                                </ul>
+                                <div class="carousel-inner ">
+                                    <div class="item carousel-item active" data-interval="1500">
+
+                                        <a data-fancybox href="image/pas.png">
+                                            <img src="image/pas.png" alt="">
+                                        </a>
+
+                                    </div>
+                                    <!-- item 2-->
+                                    <div class="item  carousel-item" data-interval="1500">
+
+                                        <a data-fancybox href="image/noodles.png">
+                                            <img src="image/noodles.png" alt="noodles">
+                                        </a>
+
+                                    </div>
+                                    <!-- item 3-->
+                                    <div class="item  carousel-item" data-interval="1500">
+
+                                        <a data-fancybox href="image/chu.png">
+                                            <img src="image/chu.png" alt="">
+                                        </a>
+
+
+                                    </div>
+
+
+
+                                </div>
+                                <!-- carousel-inner -->
+
+
+                            </div>
+                            <!-- slider-item -->
+                        </div>
+                        <!-- slider -->
+
+                    </div>
+                    <!-- col-md-12 -->
+                </div>
+                <!-- row -->
+            </div>
+            <!-- container -->
+        </div>
+
+        <!-- =========slider gallary end============= -->
+
+
+        <!-- body-part-contact form-->
+
+        <!-- contact-form -->
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="contact">
+
+                            <div class="contact-form ">
+                                <div class="video-title cnt-title">
+                                    <h2>Contact Us For Your Special<br> Occasion</h2>
+                                </div>
+                                <form action="https://formspree.io/f/xvodvylr" method="POST" id="my-form">
+                                    <div class="row ">
+
+                                        <div class="column half ">
+                                            <label> First Name<span>*</span></label><br>
+                                            <input type="text" id="Name" placeholder="" required name="name" oninvalid="this.setCustomValidity('Please Enter Your Name')" oninput="this.setCustomValidity('')">
+                                        </div>
+                                        <div class="column half ">
+                                            <label>Last Name <span>*</span></label><br>
+                                            <input type="text" placeholder="" id="Name" oninvalid="this.setCustomValidity('Please Enter Your Name')" oninput="this.setCustomValidity('')">
+                                        </div>
+                                        <div class="column ">
+                                            <label> Email <span>*</span></label><br>
+                                            <input type="email" id="email" placeholder="" required name="email" oninvalid="this.setCustomValidity('Please Enter Your Email')" oninput="this.setCustomValidity('')">
+                                        </div>
+                                        <div class="column ">
+                                            <label>Write a message <span>*</span></label><br>
+                                            <textarea placeholder="" name="message" id="message" required oninvalid="this.setCustomValidity('Please Enter Your message')" oninput="this.setCustomValidity('')"></textarea>
+                                        </div>
+                                        <div class="column col-bnt">
+                                            <div class="buttonn">
+                                                <input type="submit" value="Submit">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div id="status"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- =========Footer start============= -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light footer-t">
+            <div class="s-icon">
+                <a class="navbar-brand" href="#"><img src="image/insta.webp" alt=""></a>
+                <a class="navbar-brand" href="#"><img src="image/fb.webp" alt=""></a>
+                <a class="navbar-brand" href="#"><img src="image/twitter.webp" alt=""></a>
+                <a class="navbar-brand" href="#"><img src="image/linkdin.webp" alt=""></a>
+                <a class="navbar-brand" href="#"><img src="image/youtube.webp" alt=""></a>
+                <a class="navbar-brand" href="#"><img src="image/tiktok.webp" alt=""></a>
+            </div>
+
+            <div class="f-text">
+                <div class="navbar-nav">
+
+                    <a class="nav-item nav-link f-item" href="#">CONTACT US</a>
+                    <a class="nav-item nav-link f-item" href="#">CAREERS</a>
+                    <a class="nav-item nav-link f-item" href="#">ABOUT US</a>
+
+                </div>
+            </div>
+        </nav>
+        <!-- =========Footer start============= -->
+
+    </div>
+    <!-- all-sec-part -->
+
+    <!-- script -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="js/fancybox.umd.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+    <!-- costom js -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
